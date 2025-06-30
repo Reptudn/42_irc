@@ -14,7 +14,7 @@
 #include <chrono>
 #include <memory>
 
-extern volatile sig_atomic_t running;
+extern volatile __sig_atomic_t running;
 
 class Server
 {
